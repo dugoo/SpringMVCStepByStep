@@ -7,8 +7,8 @@
 <title>title from jsp</title>
 </head>
 <body>
-<form action="/login.do" method="post">
-<p><font color="red">${error }</font></p>
+<form action="/login" method="post">
+<p><font color="red">${errorMessage }</font></p>
 Enter name: <input type="text" name="name" />
 Enter password: <input type="password" name="password" />
 <input type="submit" />
